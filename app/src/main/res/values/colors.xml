@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="lightGray">#939393</color>
+    <color name="chat_with_bgcolor">#F6F6F6</color>
+    <color name="lightblack">#2E2E2E</color>
+    <color name="offwhite">#FAF9F6</color>
+    <color name="whitetrasparent">#00FFFFFF</color>
+    <color name="transaparent">#000000</color>
+</resources>

@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SciflareApplication" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/lightblack</item>
+        <item name="colorAccent">@color/white</item>
+    </style>
+    <style name="TextLabel" parent="TextAppearance.Design.Hint">
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="Theme.SciflareApplication" parent="Base.Theme.SciflareApplication" />
+    <style name="loginTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:textColorHint">@color/lightGray</item>
+        <item name="boxStrokeColor">@color/lightGray</item>
+        <item name="boxCornerRadiusBottomEnd">10dp</item>
+        <item name="boxCornerRadiusBottomStart">10dp</item>
+        <item name="boxCornerRadiusTopEnd">10dp</item>
+        <item name="boxCornerRadiusTopStart">10dp</item>
+        <item name="colorControlActivated">@color/lightGray</item>
+        <item name="colorControlHighlight">@color/lightGray</item>
+        <item name="hintTextAppearance">@style/TextLabel</item>
+    </style>
+    <style name="loginTextInputEditText" parent="ThemeOverlay.MaterialComponents.TextInputEditText.OutlinedBox.Dense">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:padding">15sp</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textCursorDrawable">@drawable/edittext_cursor_white</item>
+    </style>
+</resources>
